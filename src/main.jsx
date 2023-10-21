@@ -1,9 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import * as NavBarCompany from './components/Navigation/NavBarCompany'
 import './css/main.css'
+import './components/Navigation/NavBarCompany'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
-  <strong>Hola Mundo!</strong>
+  <React.Fragment>
+    <NavBarCompany.NavBarCompany company={"NYC"} />
+  </React.Fragment>
 )

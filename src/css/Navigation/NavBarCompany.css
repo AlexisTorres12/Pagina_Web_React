@@ -1,0 +1,18 @@
+.toolBar-appbar{
+    background-color: rgb(76, 81, 155);
+}
+
+.select-company-appbar-open{
+    display: block;
+}
+
+.select-company-appbar-close{
+    display: none;
+}
+
+.image-logo-navbar{
+    width: 200px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
